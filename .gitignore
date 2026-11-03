@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 本机与编辑器
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 产出与临时渲染
+outputs/
+.dsh-office-*/
+*.docx
+*.tmp
+*.log
+
+# 例外：测试样本与附图资源要进版本库
+!tests/assets/*.png
